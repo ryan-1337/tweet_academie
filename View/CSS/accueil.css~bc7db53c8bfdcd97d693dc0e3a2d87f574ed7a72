@@ -1,0 +1,115 @@
+
+nav{
+	border-bottom: 1px solid grey;
+
+}
+.container-fluid
+{
+	height: 1000px;
+	background-color: #dfe4ea;
+}
+.img-fluid{
+	width: 300px;
+}
+#messagerie a{
+	padding:10px;
+}
+#username_click{
+	cursor: pointer;
+}
+
+#username_click:hover{
+	color: skyblue;
+}
+
+.menu {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+    padding: 5px 10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.menu button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#messagerie
+{
+	height: 40px;
+	
+}
+
+#mon_compte
+{
+	text-align: left;
+}
+
+.editor {
+    border-radius: 0 0 10px 10px;
+    border: 1.5px solid #CCC;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    outline: 0;
+    padding: 10px;
+    overflow: auto;
+    background: white;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+}
+
+form {
+    text-align: center;
+}
+#set_info
+{
+	display: none;
+}
+#msg
+{
+	resize: none;
+	font-size: 20px;
+	width: 620px;
+	margin:auto;
+	height: 50px;
+	border:1px solid grey;
+}
+
+#info{
+	color: grey;
+	background-color: white;
+	margin-top: 10px;
+	padding: 5px;
+	
+
+}
+
+#set_info{
+	color: grey;
+	
+	margin-top: 10px;
+	
+}
+.modifier{
+	background-color: white;
+	border-radius: 7px;
+}
+#form_tweet{
+	
+}
+#tweet_container{
+	padding-top: 10px;
+}
+#actuality
+{
+
+	margin-top: 10px;
+	word-break: break-all;
+	margin-left: 10px;
+	background-color: white;
+}

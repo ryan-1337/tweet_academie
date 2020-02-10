@@ -1,0 +1,103 @@
+nav{
+	border-bottom: 1px solid grey;
+
+}
+body{
+	background-color: #dfe4ea;
+}
+.container-fluid
+{
+	
+}
+
+.img {
+	width: 100px;
+	border-radius: 100%;
+}
+.img-fluid{
+	width: 300px;
+}
+#messagerie a{
+	padding:10px;
+}
+#account_info{
+	padding: 15px;
+	background-color: silver;
+}
+.profil_image{
+	margin: 10px;
+	border-radius: 100%;
+	width: 150px;
+	border: 1px solid rgba(55, 160, 230, 1);
+}
+#all_info{
+	width: 100%;
+	padding: 4%;
+}
+#profil_data{
+	margin-right: auto;
+	margin-left: auto;
+}
+#tweet_content {
+	height: 700px;
+	margin-right: 1.2%;
+	margin-left: 1.2%;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: solid 3px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	overflow: auto;
+}
+.content {
+	width: 95%;
+	padding: 5px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	overflow: auto;
+}
+.tweet_date{
+	float: right;
+	font-size: 12px;
+}
+#follower_content {
+	height: 700px;
+	margin-right: 1.2%;
+	margin-left: 1.2%;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: solid 3px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	overflow: auto;
+}
+#following_content {
+	height: 700px;
+	margin-right: 1.2%;
+	margin-left: 1.2%;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: solid 3px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	overflow: auto;
+}
+.username_content {
+	width: 95%;
+	padding: 5px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	overflow: auto;
+	cursor: pointer;
+}
+.my_tweet_delete {
+	margin: 10px;
+}
+button {
+	border-radius: 10px;
+	background-color: rgba(55, 160, 230, 1);
+	color: white;
+}

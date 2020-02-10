@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tweet Académie</title>
+	<!-- Bootstrap JS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Bootstrap JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- CDN jquery et js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+	<script src="tweet_academie_login.js"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/inscription.css">
+</head>
+<body>
+	<header class="container">
+		<h1> Bienvenue sur Truiter</h1>
+	</header>
+	<main class="container">
+		<button class="btn btn-default" id="registration">S'inscrire</button>
+		<button class="btn btn-default" id="connection">Déjà inscrit ?</button>
+		<form id="form_registration">
+			<h2>S'inscrire:</h2><br>
+			<div class="form-row">
+		    	<div class="col-xs-12 col-sn-12 col-md-6 col-lg-6">
+		    	<label for="display_name">Nom et prenom</label>
+	      		<input type="text" class="form-control" id="r_display_name" placeholder="Entrer votre nom et prénom">
+	    		</div>
+	   			<div class="col-xs-12 col-sn-12 col-md-6 col-lg-6">
+	    			<label for="username">Pseudo</label>
+	      			<input type="text" class="form-control" id="r_username" placeholder="Entrer votre pseudo">
+	    		</div>
+  			</div>
+  			<div class="form-group">
+	    		<label for="email">Adresse Email</label>
+	    		<input type="email" class="form-control" id="r_email" placeholder="Entrer votre email">
+ 			</div>
+ 			<div class="form-group">
+			    <label for="password">Mot de passe</label>
+			    <input type="password" class="form-control" id="r_password" placeholder="Entrer votre mot de passe">
+  			</div>
+     		<div class="form-row">
+	    		<div class="form-group col-xs-12 col-sn-12 col-md-6 col-lg-6">
+			     	<label for="city">Ville</label>
+			      	<input type="text" class="form-control" id="r_city" placeholder="Entrer votre ville">
+	    		</div>
+			    <div class="form-group col-xs-12 col-sn-12 col-md-6 col-lg-6">
+			      <label for="naissance">Date de naissance</label>
+			      <input type="date" class="form-control" id="r_birth_date">
+	    		</div>
+    		</div><br>
+			<div class="form-row">
+		    	<div class="form-group col-xs-12 col-sn-12 col-md-6 col-lg-6">
+		  			<button type="submit" class="btn btn-light" id="r_button">S'inscrire</button>
+				</div>
+			</div>
+		</form>
+
+		<form id="form_connection">
+			<h2>Se connecter:</h2><br>
+  			<div class="form-group">
+	    		<label for="email">Adresse Email</label>
+	    		<input type="email" class="form-control" id="c_email" placeholder="Entrer votre email">
+ 			</div>
+ 			<div class="form-group">
+			    <label for="password">Mot de passe</label>
+			    <input type="password" class="form-control" id="c_password" placeholder="Entrer votre mot de passe">
+  			</div><br>	
+			<div class="form-row">
+		    	<div class="form-group col-xs-12 col-sn-12 col-md-6 col-lg-6">
+		  			<button type="submit" class="btn btn-light" id="c_button">Se connecter</button>
+				</div>
+			</div>
+		</form>
+		<div id="error"></div>
+	</main>
+</body>
+</html>

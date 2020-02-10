@@ -1,0 +1,52 @@
+h2 {
+	color: white;
+	font-weight: bold;
+}
+
+.btn-default
+{
+	width:100px;
+	height:100px;
+	font-size: 18px;
+	border-radius: 100%;
+	background-color: silver;
+}
+.container h1
+{
+	text-align: center;
+	color:#2e86de;
+}
+.container h3{
+	margin-top: 30px;
+}
+
+#form_registration
+{
+	padding: 10px;
+	background-color: #2e86de;
+	margin-top: 50px;
+	border-radius: 7px;
+}
+#form_connection
+{
+	display: none;
+	padding: 10px;
+	background-color: #2e86de;
+	margin-top: 50px;
+	border-radius: 7px;
+}
+label
+{
+	font-weight: bold;
+}
+.btn-light
+{
+	margin-top: 10px;
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 20px;
+}
+#registration
+{
+	display: none;
+}

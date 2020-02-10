@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="accueil.css">
+	<title>Page Accueil</title>
+	<!-- Bootstrap JS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Bootstrap JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- CDN jquery et js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+	<script src="tweet_academie_login.js"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/accueil.css">
+
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+   		<div id="messagerie">
+   	 		<a class="navbar-link" href="inscription.html">Deconnection</a>
+    		<a class="navbar-link" href="vue_tweet_academie_messagerie.html">Messagerie privée</a>
+		</div>
+			<img src="img/truite_des_rivieres.png" class="img-fluid" alt="Responsive image">
+ 		<form class="form-inline my-2 my-lg-0 search">
+      	<input class="form-control mr-sm-2" id="home_search" type="search" placeholder="Recherche" aria-label="Search">
+      		
+    	</form>
+  		</div>
+  	</nav>
+</header>
+<main class="row">
+	<section class="col-xs-12 col-sm-12 col-md-4 col-lg-3" id="all_info">
+		<div id="info"></div>
+	</section>
+	<section class="col-xs-12 col-sm-12 col-md-8 col-lg-7" id="field">
+		<form id="form_tweet" action="" method="POST">
+		 	<textarea id="msg" name="msg" maxlength="140"></textarea>
+			<input class="btn btn-light my-2 my-sm-0" id="sub_tweet" type="submit" value="Truiter">
+		</form><br>
+		<h2> Fil d'actualité: </h2>
+		<div id="actuality"></div>
+	</section>
+	<section class="col-xs-12 col-sm-12 col-md-8 col-lg-7" id="profil">
+		<button id='close_search'>fermer</button>
+		<div id="search_result"></div>
+	</section>
+</main>
+	<script src="tweet_accueil.js"></script>
+	<script>
+    $(document).ready(function () {
+        $("#msg").my_tweet(
+
+        );
+    });
+
+</script>
+</body>
+</html>

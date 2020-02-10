@@ -1,0 +1,221 @@
+
+nav{
+	border-bottom: 1px solid grey;
+
+}
+body{
+	background-color: #dfe4ea;
+}
+.container-fluid
+{
+	
+}
+
+.img {
+	width: 100px;
+	border-radius: 100%;
+}
+
+.image_search{
+	width: 80px;
+	border-radius: 100%;
+}
+
+.profil_result {
+	padding: 1%;
+	border: 3px solid rgba(55, 160, 230, 1);
+	border-radius: 10px;
+}
+
+.follow_button {
+	margin-top: 1%;
+	border-radius: 10px;
+	background-color: rgba(55, 160, 230, 1);
+	color: white;
+}
+
+.unfollow_button {
+	margin-top: 1%;
+	border-radius: 10px;
+	background-color: rgba(55, 160, 230, 1);
+	color: white;
+}
+
+.img-fluid{
+	width: 300px;
+}
+#messagerie a{
+	padding:10px;
+}
+#username_click{
+	cursor: pointer;
+}
+
+#username_click:hover{
+	color: skyblue;
+}
+
+main {
+	padding: 10px;
+}
+
+#profil {
+	display: none;
+}
+
+#search_result {
+	text-align: left;
+	margin-top: 10px;
+	list-style-type: none;
+	max-height: 800px;
+	overflow: auto;
+}
+
+#post_result {
+	border: solid 3px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+}
+
+#close_search {
+	margin: 10px;
+	border: solid 3px rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	background-color: white;
+	color: rgba(55, 160, 230, 1);
+}
+
+#close_search:hover {
+	cursor: pointer;
+}
+
+.menu {
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
+	 /* background-blend-mode: multiply,multiply; */
+	 
+background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menu button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#messagerie
+{
+	height: 40px;
+	
+}
+
+#sub_tweet {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#all_info{
+	margin-bottom: 15px;
+}
+
+#field{
+	
+}
+
+#mon_compte
+{
+	text-align: left;
+}
+
+form {
+    text-align: center;
+}
+#set_info
+{
+	display: none;
+}
+#msg
+{
+	width: 100%;
+	resize: none;
+	font-size: 16px;
+	margin:auto;
+	height: 90px;
+	margin-bottom: 10px;
+	border: 3px solid rgba(55, 160, 230, 1);
+	border-radius: 10px;
+}
+
+#info{
+	height: 250px;
+	color: grey;
+	background-color: white;
+	margin-top: 10px;
+	padding: 5px;
+	border: 3px solid rgba(55, 160, 230, 1);
+	border-radius: 10px;
+
+}
+
+#set_info{
+	color: grey;
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px;
+	border: 3px solid rgba(55, 160, 230, 1);
+	border-radius: 10px;
+	
+}
+.modifier{
+	background-color: white;
+	border-radius: 7px;
+	margin-bottom: 10px;
+}
+#form_tweet{
+	
+}
+#tweet_container{
+	padding-top: 10px;
+}
+#actuality
+{
+	padding: 10px;
+	height: 600px;
+	margin-top: 10px;
+	background-color: white;
+	overflow: auto;
+	border: 3px solid rgba(55, 160, 230, 1);
+	border-radius: 10px;
+}
+
+#t_content {
+	border: 1px solid rgba(55, 160, 230, 1);
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 22px;
+}
+
+.pseudo {
+	margin-left: 1%;
+	color: rgba(55, 160, 230, 1);
+}
+
+.t_date {
+	float: right;
+	margin-right: 1.5%;
+	font-size: 12px;
+	color: rgba(55, 160, 230, 1);
+}
+
+.search_username {
+	cursor: pointer;
+}
